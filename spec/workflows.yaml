@@ -1,0 +1,26 @@
+intake_questionnaire:
+  required_fields:
+    - document_type
+    - parties
+    - governing_law
+    - effective_date
+    - language_preference
+  optional_fields:
+    - term_length
+    - payment_terms
+    - confidentiality_level
+    - dispute_resolution_forum
+clause_selection:
+  steps:
+    - identify_mandatory_clauses_by_domain
+    - select_optional_clauses_by_risk_profile
+    - align_terms_with_regulatory_requirements
+versioning:
+  scheme: semver
+  change_log_required: true
+review_checklists:
+  - jurisdiction_alignment
+  - citation_completeness
+  - consistency_of_defined_terms
+  - risk_allocation_balance
+  - formatting_and_export_readiness
