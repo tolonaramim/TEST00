@@ -1,0 +1,22 @@
+jurisdiction: Bangladesh
+target_users:
+  - law_firms
+  - corporate_legal_teams
+  - sme_owners
+  - ngos
+  - in_house_counsel
+drafting_domains:
+  - commercial_contracts
+  - employment_labor
+  - corporate_governance
+  - real_estate_land
+  - intellectual_property
+  - dispute_resolution
+languages:
+  - bn
+  - en
+output_formats:
+  - docx
+  - pdf
+  - txt
+  - html

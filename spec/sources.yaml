@@ -1,0 +1,31 @@
+sources:
+  - name: Bangladesh Code
+    type: statutes
+    access: public
+    license_status: verify
+    update_cadence: monthly
+    notes: Use official authenticated text when available.
+  - name: Bangladesh Gazette
+    type: regulations
+    access: public
+    license_status: verify
+    update_cadence: weekly
+    notes: Track new acts, rules, and notifications.
+  - name: Supreme Court of Bangladesh decisions
+    type: case_law
+    access: public
+    license_status: verify
+    update_cadence: monthly
+    notes: Index landmark precedents relevant to drafting.
+  - name: Government regulator circulars and guidelines
+    type: regulatory_guidance
+    access: public
+    license_status: verify
+    update_cadence: monthly
+    notes: Include sector-specific regulators as applicable.
+  - name: Proprietary drafting templates
+    type: templates
+    access: restricted
+    license_status: permission_required
+    update_cadence: quarterly
+    notes: Secure explicit licensing and usage rights.

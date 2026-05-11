@@ -1,0 +1,30 @@
+template_library:
+  storage_path: spec/templates
+  metadata_fields:
+    - title
+    - domain
+    - document_type
+    - jurisdiction
+    - language
+    - version
+    - source
+    - last_reviewed
+retrieval_index:
+  index_fields:
+    - domain
+    - document_type
+    - parties
+    - governing_law
+    - language
+  ranking_signals:
+    - jurisdiction_match
+    - recency
+    - template_quality_score
+citation_requirements:
+  require_citations: true
+  citation_fields:
+    - source_name
+    - enactment_date
+    - section_reference
+    - url_or_reference
+    - access_date

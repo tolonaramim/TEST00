@@ -1,0 +1,11 @@
+update_cadence:
+  statutes: monthly
+  regulations: weekly
+  templates: quarterly
+feedback_loop:
+  collect_user_feedback: true
+  expert_review_cycle: quarterly
+monitoring:
+  unsafe_output_alerts: true
+  citation_drift_checks: monthly
+  audit_log_review: quarterly

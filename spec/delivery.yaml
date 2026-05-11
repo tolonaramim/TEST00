@@ -1,0 +1,14 @@
+delivery_surface:
+  primary: document_editor
+  secondary:
+    - chat_ui
+    - api
+audit_and_export:
+  audit_logs: required
+  export_formats:
+    - docx
+    - pdf
+    - txt
+access_controls:
+  role_based_access: true
+  reviewer_gate: required

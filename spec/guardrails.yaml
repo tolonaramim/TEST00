@@ -1,0 +1,24 @@
+jurisdiction_limits:
+  primary_jurisdiction: Bangladesh
+  out_of_scope_action: decline_and_redirect
+disclaimers:
+  - Provide information for drafting support only.
+  - Not a substitute for licensed legal advice.
+  - Require human lawyer review before use.
+conflict_checks:
+  required: true
+  intake_prompts:
+    - Identify all counterparties and affiliates.
+    - Confirm no existing engagement conflicts.
+privacy_handling:
+  data_minimization: true
+  pii_redaction: required
+  retention_policy: configurable
+  storage_controls:
+    - encryption_at_rest
+    - encryption_in_transit
+unsafe_output_controls:
+  block_actions:
+    - fabricate_citations
+    - provide_non_bangladesh_legal_opinions
+    - generate_sensitive_personal_data
